@@ -3,7 +3,7 @@ import { getPostsMeta, getPostByName} from "@/lib/posts"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 
-export const revalidate = 86400;
+export const revalidate = 10;
 
 type Props = {
     params: {

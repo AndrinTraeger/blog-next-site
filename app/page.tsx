@@ -3,7 +3,7 @@ import MyProfilePic from './components/MyProfilePic'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import "highlight.js/styles/github-dark.css"
-export const revalidate = 86400
+export const revalidate = 10
 import Posts from './components/Posts'
 
 export default function Home() {
